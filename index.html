@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/carousel-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Sketch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <script src="javascript/carousel-script.js" charset="utf-8"></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>Long Beach City Boba Enthusiasts</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="page-1.html">Boba: A History</a></li>
+      <li><a href="page-2.html">LBC Boba Shops</a></li>
+      <li><a href="page-3.html">Vote / Contact Us</a></li>
+    </ul>
+    <div class="new-section">
+      <br>
+      <h2>What's New?</h2>
+      <div class="slideshow-container">
+        <div class="slideshow-inner">
+          <div class="mySlides fade">
+
+            <img  src='assets/img/rosalind-chang-boba.jpg' alt="Picture of two boba teas - Photo by Rosalind Chang on Unsplash"/>
+            <div class="text">We absolutely love boba! (Photo by Rosalind Chang on Unsplash)</div>
+          </div>
+
+          <div class="mySlides fade">
+
+            <img  src='assets/img/jason-leung-boba.jpg' alt="Boba tea from Boba Guys"/>
+            <div class="text">Newest kid on the block! (Photo by Jason Leung on Unsplash)</div>
+          </div>
+
+          <div class="mySlides fade">
+
+            <img  src='assets/img/frank-zhang-boba.jpg' alt="A person preparing boba tea"/>
+            <div class="text">What is boba? Find out more here! (Photo by Frank Zhang on Unsplash)</div>
+          </div>
+
+          <div class="mySlides fade">
+
+            <img  src='assets/img/braydon-anderson-dog.jpg' alt="Cute dog with a disguise"/>
+            <div class="text">Let us know -- what makes a boba shop the best? (Photo by Braydon Anderson on Unsplash)</div>
+          </div>
+
+          </div>
+
+
+          <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+          <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+        </div>
+        <br/>
+
+        <div style='text-align: center;'>
+          <span class="dot" onclick='currentSlide(1)'></span>
+          <span class="dot" onclick='currentSlide(2)'></span>
+          <span class="dot" onclick='currentSlide(3)'></span>
+          <span class="dot" onclick='currentSlide(4)'></span>
+        </div>
+    </div>
+
+    <div class="list">
+      <br>
+      <h2> 🏆 Top Ten Current Rankings (Based on <a href="https://www.yelp.com/search?find_desc=Boba&find_loc=Long+Beach%2C+CA">Yelp!)</a></h2>
+      <ol>
+        <li>Loose Leaf Boba Co</li>
+        <li>Happy Little Teas</li>
+        <li>Boba Guys</li>
+        <li>Tastea</li>
+        <li>Teazo Lounge</li>
+        <li>Boba Tea House</li>
+        <li>Cha for Tea</li>
+        <li>Ding Tea Lakewood</li>
+        <li>Roasting Water</li>
+        <li>Snow Monster Cafe</li>
+      </ol>
+    </div>
+    <div class="survey">
+      <br>
+      <h2> 📬 Subscribe Here!</h2>
+      <form class="" target="_blank" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+        <fieldset>
+          <legend>Enter your email to get updates on all things boba related! :)</legend>
+          <p class="form-style">
+            <label>Email:
+              <input type="email" name="email_input" value="email@email.com">
+            </label>
+          </p>
+          <p class="form-style">
+            <label>Would you also like to get emails about special promotions?
+              <br>
+              <label>
+                <input type="radio" name="answer" value="yes_once_week">
+                Yes, once a week
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="answer" value="yes_once_month">
+                Yes, once a month
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="answer" value="no">
+                No, thank you
+              </label>
+            </label>
+          </p>
+          <input type="submit" class="btn" value="Submit">
+        </fieldset>
+      </form>
+    </div>
+    <br>
+    <div class="credits">
+      <p>Site made with ❤️ by Karen Berba ✌️</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+body {
+  background-color: #f1d6ab;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul li {
+  float: left;
+}
+
+ol li {
+  font-family: 'Raleway', sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #f6da63;
+  color: #111;
+}
+
+/* h1 {
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 60px;
+  color: #f6da63;
+  background-color: #333;
+} */
+
+h2 {
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 40px;
+  color: #f6da63;
+  text-align: center;
+  background-color: #333;
+}
+
+div {
+  padding-top: 20;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+legend {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 a:visited {
+  color: #f6da63;
+}
+
+div.list {
+  text-align: center;
+  height: auto;
+  width: auto;
+  background-color: #e3b04b;
+}
+
+.form-style {
+  border-style: none;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.btn {
+  background-color: #333;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.btn:hover {
+  background-color: #e3b04b;
+}
+
+.survey {
+  background-color: #e5dfdf;
+}
+
+.new-section {
+  background-color: #e5dfdf;  
+}

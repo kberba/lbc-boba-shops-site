@@ -1,0 +1,175 @@
+body {
+  background-color: #e5dfdf;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+img {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+/* .column-1 img {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+} */
+
+div {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #f6da63;
+  color: #111;
+}
+
+h1{
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 60px;
+  color: #f6da63;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #111;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:link {
+  text-decoration: none; 
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column-1 {
+  flex: 50%;
+  padding: 10px;
+  height: auto;
+  background-color:#f1d6ab;
+}
+
+.column-2 {
+  flex: 50%;
+  padding: 10px;
+  height: auto;
+  background-color:#e3b04b;
+}
+
+.regular-list {
+  float: none;
+  background-color: #e3b04b;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.boba-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.social-media {
+  width: 100px;
+  height: 100px;
+  background-color: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.override-h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #111;
+}
+
+.scrollbar {
+  height: 300px;
+  width: 650px;
+  overflow:auto;
+  background-color: inherit;
+  color: #333;
+  overflow-y: visible;
+  /* font-family:sans-serif; */
+  padding:10px;
+}
+
+.credits {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+  background-color: #333;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.btn:hover {
+  background-color: #e3b04b;
+}
+
+.btn a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.btn a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}

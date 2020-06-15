@@ -1,0 +1,59 @@
+body {
+  background-color: #f1d6ab;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+legend {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #111;
+  background-color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.credits {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.form-style {
+  border-style: none;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.btn {
+  background-color: #333;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.btn:hover {
+  background-color: #e3b04b;
+}
+
+.survey {
+  background-color: #e5dfdf;
+}
